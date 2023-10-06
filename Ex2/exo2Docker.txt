@@ -1,0 +1,15 @@
+=> docker images
+=> docker run -d --name nginx-web -p 8080:80 nginx
+=> docker ps
+=> http://localhost:8080/
+=> docker exec -it nginx-web /bin/bash
+=> cd usr/share/nginx/html
+=> apt-get update
+=> apt-get install nano
+=> nano index.html
+=> docker run -d --name htppd-web -p 8080:80 httpd
+=> docker exec -it httpd-web /bin/bash
+=> cd htdocs
+=> apt-get update
+=> apt-get install nano
+=> nano index.html
